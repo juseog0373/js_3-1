@@ -6,7 +6,7 @@ body {
 
 .idols {
     display: flex;
-    flex-wrap: wrap; /* 이미지 사이즈로 한줄로 우겨넣다가 웹 브라우저 사이즈보다 넘을 경우 다음줄로 정렬함 */
+    flex-wrap: wrap; /* 이미지 사이즈로 한줄로 우선 넣다가 웹 브라우저 사이즈보다 넘을 경우 다음줄로 정렬 */
     justify-content: center;
     max-width: 1400px;
     /* background-color: orange; */
