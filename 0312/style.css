@@ -1,0 +1,50 @@
+div {
+    border: 1px solid red;
+}
+
+div > p {
+    color: purple;
+}
+
+/* div > p:nth-child(1) {
+    color: red;
+} */
+
+#outer-p {
+    color: red;
+}
+
+.inner-p {
+    color: blue;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    border: 3px solid red;
+    width: 200px;
+    height: 200px;
+    text-align: center; /* tac */
+    line-height: 200px; /* height 값과 동일하게 하면 수직정렬 가운데로 */
+    border-radius: 15px;
+}
+
+li {
+    font-size: 24px;
+    border: 1px solid #333;
+    float: left;
+}
+
+ul {
+    list-style: none; /* li 점 없애기 */
+}
+
+/*
+하위: div p {
+자식: div > p {
+그룹: html, body {
+전체: * {
+*/
